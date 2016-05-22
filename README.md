@@ -4,11 +4,11 @@ This is a utility window for Unity3D that exposes the [SerializedProperties](htt
 
 ## Why Would I Use This Thing?
 
-Have you ever needed to know exactly how Unity serializes your game object/behaviour/thing? Maybe you need to create an Editor in Unity but having trouble figuring out how the data is exposed. Sure you can look at the Yaml, but if you're doing something in the Editor, you need to see it how the Editor sees it. Which is NOT intuitive. Hence the SerializedPropertyViewer.
+Have you ever needed to know exactly how Unity serializes your game object/behaviour/thing? Maybe you need to create an Editor in Unity but having trouble figuring out how the data is exposed? Maybe you want to see how Unity serializes its own internal objects? If you're doing something in the Editor, you need to see it how the Editor sees it. Which is NOT intuitive. Hence the SerializedPropertyViewer.
 
 ![](sp_viewer.png)
 
-Usage is quite straightforward: drag an object into the `Object` field and observe the output. This is unfiltered so expect lots of info. For example, char* are displayed as arrays, just like unity sees it.
+Usage is quite straightforward: drag an object into the `Object` field and observe the output. This is unfiltered so expect lots of info. For example, char* are displayed as arrays, and object references are shown as a PPtr<TYPE> (which contains two values: m_FileID, and m_PathID).
 
 ## Features
   
