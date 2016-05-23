@@ -18,3 +18,4 @@ Usage is quite straightforward: drag an object into the `Object` field and obser
   * When an object is found a 'goto' button is displayed.
   * Displays the propertyPath, which you can use as input to [FindProperty()](http://docs.unity3d.com/ScriptReference/SerializedObject.FindProperty.html)
 
+[This is part of the Enemy Hideout Code Archive](http://enemyhideout.com/2016/05/free-code-from-the-hideout/)
